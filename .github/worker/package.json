@@ -1,0 +1,18 @@
+{
+  "name": "notifications",
+  "version": "1.0.0",
+  "description": "send Firebase notifications",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.2",
+    "firebase-admin": "^11.11.1",
+    "@octokit/rest": "^20.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
