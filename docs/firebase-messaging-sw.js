@@ -3,11 +3,11 @@ importScripts("https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"
 importScripts("https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js");
 
 firebase.initializeApp({
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyAtZ1LXEwGQcVrGMoiYiyo9xyDhu9lCjHY",
+    authDomain: "articledetector.firebaseapp.com",
+    projectId: "articledetector",
+    messagingSenderId: "866234093944",
+    appId: "1:866234093944:web:f23944e0be780a21f2388d"
 });
 
 const messaging = firebase.messaging();
