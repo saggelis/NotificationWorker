@@ -24,6 +24,16 @@
     </div>
 
     <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/NotificationWorker/firebase-messaging-sw.js')
+                .then(reg => {
+                console.log('SW registered:', reg.scope);
+                })
+                .catch(err => {
+                console.error('SW registration failed:', err);
+                });
+            }
+
         // Firebase configuration
         const firebaseConfig = {
             apiKey: "AIzaSyAtZ1LXEwGQcVrGMoiYiyo9xyDhu9lCjHY",
